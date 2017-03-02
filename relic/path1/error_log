@@ -1,0 +1,12 @@
+[06-Jan-2013 21:45:42] PHP Parse error:  syntax error, unexpected '}' in /home/ktj12/public_html/2009/rhktjrh/path1/follow_the_post.php on line 95
+[06-Jan-2013 21:46:00] PHP Parse error:  syntax error, unexpected T_ELSE in /home/ktj12/public_html/2009/rhktjrh/path1/follow_the_post.php on line 11
+[06-Jan-2013 21:46:02] PHP Parse error:  syntax error, unexpected T_ELSE in /home/ktj12/public_html/2009/rhktjrh/path1/follow_the_post.php on line 11
+[06-Jan-2013 21:46:03] PHP Parse error:  syntax error, unexpected T_ELSE in /home/ktj12/public_html/2009/rhktjrh/path1/follow_the_post.php on line 11
+[06-Jan-2013 21:46:04] PHP Parse error:  syntax error, unexpected T_ELSE in /home/ktj12/public_html/2009/rhktjrh/path1/follow_the_post.php on line 11
+[07-Jan-2013 06:11:53] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/ktj12/public_html/2009/rhktjrh/path1/subsidiary.php on line 5
+[08-Jan-2013 10:56:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/ktj12/public_html/2009/rhktjrh/path1/q4.php on line 45
+[08-Jan-2013 10:56:33] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ktj12/public_html/2009/rhktjrh/path1/q4.php on line 45
+[08-Jan-2013 10:56:55] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Filename cannot be empty in /home/ktj12/public_html/2009/rhktjrh/path1/q4.php on line 45
+[08-Jan-2013 10:56:55] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ktj12/public_html/2009/rhktjrh/path1/q4.php on line 45
+[09-Jan-2013 12:55:26] PHP Warning:  include(menu_path.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/ktj12/public_html/2009/rhktjrh/path1/vile.php on line 45
+[09-Jan-2013 12:55:26] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'menu_path.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ktj12/public_html/2009/rhktjrh/path1/vile.php on line 45

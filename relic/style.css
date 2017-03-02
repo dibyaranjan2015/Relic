@@ -1,0 +1,204 @@
+html.home
+{
+font-family:tahoma;
+height:100%;
+}
+
+html
+{
+font-family:tahoma;
+height:105%;
+}
+
+@font-face {
+    font-family: scratch;
+    src: url('Skratch_Punk.ttf');
+}
+
+div.menu_item
+{
+cursor:pointer;
+}
+
+a
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+div.content
+{
+background:url('../images/parch.jpg');
+width:65%;
+margin-top:2.5%;
+height:65%;
+margin-left:32%;
+min-height:500px;
+border-radius:3px;
+border:1px solid #302217; 
+box-shadow:1px 0px 5px 1px #302217; 
+}
+
+body.home
+{
+min-width:1200px;
+max-width:1500px;
+min-height: 545px;
+max-height: 1000px;
+overflow-y:scroll;
+padding:0px;
+margin:0px;
+margin:0px auto;
+height:100%;
+min-height:100%;
+display:block;
+background:url('../images/home_back.png');
+background-size:100% auto;
+}
+
+body
+{
+min-width:1200px;
+max-width:1500px;
+min-height: 545px;
+max-height: 1000px;
+overflow-y:scroll;
+padding:0px;
+margin:0px;
+margin:0px auto;
+height:105%;
+min-height:105%;
+display:block;
+background:url('../images/home_back.png');
+background-size:100%;
+}
+
+::-webkit-scrollbar
+{
+width:7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	background:#F1F1D4 ;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    background:#302217;
+	border:#172630;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(0,0,0,0.1); 
+}
+
+div.content_wrapper
+{
+padding:2%;
+}
+
+img.logo
+{
+height:8%;
+max-height:8%;
+max-width:20%;
+}
+
+table.login_form
+{
+width:80%;
+text-align:center;
+margin:0px auto;
+}
+
+div.ktj_logo
+{
+margin:1%;
+float:left;
+width:40%;
+display:inline-block;
+}
+
+div.head
+{
+padding:1%;
+float:right;
+width:45%;
+margin-right:2%;
+text-align:right;
+display:inline-block;
+}
+
+div.wrapper
+{
+border-radius:3px;
+width:30%;
+margin:0px auto;
+margin-top:20%;
+background:url('../images/parch.jpg');
+min-height:100px;
+height:30%;
+padding-top:1%;
+padding-bottom:2%;
+border:1px solid #302217; 
+box-shadow:1px 0px 5px 1px #302217;
+}
+
+div.home_wrapper
+{
+margin-top:7.5%;
+}
+
+div.menu_item
+{
+font-family:scratch;
+font-size:20px;
+color:#FFFFFF;
+display:inline-block;
+padding:0.3%;
+}
+
+div.menu
+{
+width:95%;
+margin:0px auto;
+text-align:center;
+border-top:1px solid #FFFFFF;
+border-bottom:1px solid #FFFFFF;
+}
+
+div.wrap_head
+{
+background:url('../images/login_head.jpg');
+margin:3%;
+width:80%;
+margin:3px auto;
+font-family:scratch;
+font-size:18px;
+color:#302217;
+padding:2px;
+text-align:center;
+}
+
+input[type='text'],input[type='password']
+{
+background:url('../images/input_back.jpg');
+border:0px;
+border-bottom:1px solid #000000;
+}
+
+
+.submit_btn
+{
+box-shadow:1px 0px 5px 1px #302217;
+border-radius:3px;
+cursor:pointer;
+background:url('../images/login_head.jpg');
+padding:5px;
+color:#302217;
+font-family:scratch;
+border:1px solid #302217;
+}

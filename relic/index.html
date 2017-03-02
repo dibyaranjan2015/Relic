@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>relic hunter</title>
+    <meta name="description" content="Your Description Here">
+   
+    <!-- Favicons
+    ================================================== -->
+    
+    <link rel="stylesheet" type="text/css"  href="styles/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="styles/jasny-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/animate.css">
+
+    
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="styles/style1.css">
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+   
+  </head>
+  <body>
+
+   
+
+    <!-- Home Section -->
+    <div id="home">
+        <div class="container text-center">
+            <!-- Navigation -->
+            <nav id="menu" data-toggle="offcanvas" data-target=".navmenu">
+                <span class="fa fa-bars"></span>
+            </nav>
+
+            <div class="content">
+                <h4>KSHITIJ</h4>
+                <hr>
+                <div class="header-text btn">
+                    <h1><span id="head-title"></span></h1>
+                </div>
+            </div>
+
+          
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="scripts/jasny-bootstrap.min.js"></script>
+
+
+    <script src="scripts/typed.js"></script>
+    <script>
+      $(function(){
+          $("#head-title").typed({
+            strings: ["RELIC HUNTER...^5000"],
+            typeSpeed: 200,
+            loop: false,
+            startDelay: 100
+          });
+      });
+	  
+	  setTimeout(function(){
+         window.location.href = "http://localhost/relic/index.php";
+	  }, 5000);
+    </script>
+
+  </body>
+</html>
